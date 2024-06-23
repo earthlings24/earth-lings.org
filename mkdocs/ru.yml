@@ -1,0 +1,45 @@
+site_name: Народ Земляне
+docs_dir: '../docs/ru'
+site_dir: '../site'
+site_description: Сайт проекта "Народ Земляне"
+site_url: https://earth-lings.org
+repo_url: https://github.com/earthlings24/earth-lings.org/
+use_directory_urls: false
+nav:
+  - Главная: index.md
+theme:
+  name: material
+  language: ru
+  logo: /logo.png
+  favicon: /favicon.ico
+  plugins:
+    - search
+    - emailprotect
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Переключить на светлую тему
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Переключить на светлую тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+extra:
+  alternate:
+    - name: Русский
+      link: /
+      lang: ru
+    - name: English
+      link: /en
+      lang: en
+
