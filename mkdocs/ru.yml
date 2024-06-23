@@ -39,7 +39,3 @@ extra:
     - name: Русский
       link: /
       lang: ru
-    - name: English
-      link: /en
-      lang: en
-
