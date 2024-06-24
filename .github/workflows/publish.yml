@@ -39,7 +39,9 @@ jobs:
       - run: mkdocs build -f mkdocs/ru.yml
       - run: rsync -av site/ ../pub/
       - run: cd ../pub
-      - run: git commit -am 'publish'
+      - run: echo `date` > timestamp
+      - run: git add .
+      - run: git commit -m publish
       - run: git push
 
       - name: Run a multi-line script
