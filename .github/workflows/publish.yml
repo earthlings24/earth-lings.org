@@ -28,6 +28,7 @@ jobs:
           fetch-depth: 0
 
       # Runs a single command using the runners shell
+      - run: pip3 install mkdocs-material-extensions
       - run: git worktree add ../pub gh-pages
       - run: mkdocs build -f mkdocs/ru.yml
       - run: rsync -av site/ ../pub/
