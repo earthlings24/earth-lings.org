@@ -31,7 +31,7 @@ jobs:
       - run: rsync -av site/ ../pub/
       - run: cd ../pub
       - run: git commit -am 'publish'
-        run: git push
+      - run: git push
 
       - name: Run a multi-line script
         run: |
