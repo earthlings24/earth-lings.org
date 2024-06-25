@@ -7,6 +7,7 @@ repo_url: https://github.com/earthlings24/earth-lings.org/
 use_directory_urls: false
 nav:
   - Главная: index.md
+  - О нас: about.md
 theme:
   name: material
   language: ru
