@@ -8,6 +8,7 @@ use_directory_urls: false
 nav:
   - Главная: index.md
   - О нас: about.md
+  - Миссия: mission.md
 theme:
   name: material
   language: ru
