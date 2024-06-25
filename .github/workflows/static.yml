@@ -34,7 +34,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - run: pip3 install mkdocs mkdocs-material mkdocs-material-extensions
-      - run: mkdocs build -f mkdocs/ru.yml
+      - run: |
+          mkdocs build -f mkdocs/ru.yml
+          echo earth-lings.org > _site/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
       - name: Deploy to GitHub Pages
