@@ -1,6 +1,6 @@
 site_name: Народ Земляне
 docs_dir: '../docs/ru'
-site_dir: '../site'
+site_dir: '../_site'
 site_description: Сайт проекта "Народ Земляне"
 site_url: https://earth-lings.org
 repo_url: https://github.com/earthlings24/earth-lings.org/
